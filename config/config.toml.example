@@ -1,0 +1,16 @@
+env="production"
+
+[log]
+dir="log"
+file="redis-in-action.log"
+max_size="10"
+max_backups="7"
+max_age="30"
+
+[redis]
+host="localhost"
+port="6379"
+password=""
+
+[redis_db]
+vote="10"
